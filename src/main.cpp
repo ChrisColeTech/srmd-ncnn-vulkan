@@ -430,6 +430,7 @@ int main(int argc, char** argv)
     int scale = 2;
     std::vector<int> tilesize;
     path_t model = PATHSTR("models-srmd");
+    path_t modelfolder;
     std::vector<int> gpuid;
     int jobs_load = 1;
     std::vector<int> jobs_proc;
@@ -461,7 +462,12 @@ int main(int argc, char** argv)
             tilesize = parse_optarg_int_array(optarg);
             break;
         case L'm':
-            model = optarg;
+            if (path_is_directory(optarg)) {
+                modelfolder = optarg;
+            }
+            else {
+                model = optarg;
+            }
             break;
         case L'g':
             gpuid = parse_optarg_int_array(optarg);
@@ -707,8 +713,8 @@ int main(int argc, char** argv)
     }
 #endif
 
-    path_t paramfullpath = sanitize_filepath(parampath);
-    path_t modelfullpath = sanitize_filepath(modelpath);
+    path_t paramfullpath = sanitize_filepath(modelfolder + PATHSTR('/') + parampath);
+    path_t modelfullpath = sanitize_filepath(modelfolder + PATHSTR('/') +modelpath);
 
 #if _WIN32
     CoInitializeEx(NULL, COINIT_MULTITHREADED);

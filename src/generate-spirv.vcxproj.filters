@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\e19d851d8b84f4476dcbf25cf4abdc4e\srmd_postproc.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\e19d851d8b84f4476dcbf25cf4abdc4e\srmd_postproc_tta.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\e19d851d8b84f4476dcbf25cf4abdc4e\srmd_preproc.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\e19d851d8b84f4476dcbf25cf4abdc4e\srmd_preproc_tta.comp.hex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\7f67c2a2b86a5d199d2f42ecf8517e37\generate-spirv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\srmd-ncnn-vulkan\src\CMakeFiles\generate-spirv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{524968E8-BDD4-3070-B8BF-A65459C2E38F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
